@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <link rel="stylesheet" type="text/css" href="../jqueryium-shopping-cart-plain-master/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../jqueryium-shopping-cart-plain-master/js/script.js"></script>
+</head>
+
+<body>
+  <div class="cart-container">
+    <h1>Shopping Cart</h1>
+    <table id="cart">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" class="item-name" value="New Item"></td>
+          <td><input type="number" class="price" value="10.00"></td>
+          <td><input type="number" class="quantity" value="0"></td>
+          <td class="subtotal">$0.00</td>
+          <td><button class="delete">Delete</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total:</td>
+          <td id="total" colspan="2">$0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+    <button id="add-item">Add New Item</button>
+  </div>
+</body>
+
+</html>

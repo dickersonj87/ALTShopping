@@ -1,0 +1,84 @@
+
+body {
+    background-image: url(images/fruit.jpg);
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fefddf;
+  }
+  
+  table {
+    background-color: #ffffff, .2;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  th {
+    background-color: #333;
+    color: #fefddf;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  button#add-item {
+    background-color: #bf94c9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button#add-item:hover {
+    background-color: #fefddf;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100px;
+  }
+  
+  td.subtotal,
+  td#total {
+    color: #f3f6db;
+  }
+  
+  .cart-container {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #00f0e0, .3;
+    opacity: 1;
+    padding: 20px;
+    max-width: 80%;
+  }
+  
+  .cart-container h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-shadow: 0 3px 6px;
+    font-size: 300%;
+    color: #ffffe6;
+  }
+  
+  .cart-container button#add-item {
+    background-color: #be8cc9;
+    color: #292929;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .cart-container button#add-item:hover {
+    background-color: #f9f8d9;
+  }
