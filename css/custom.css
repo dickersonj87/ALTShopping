@@ -16,17 +16,23 @@ body {
   th {
     background-color: #333;
     color: #fefddf;
+    font-size: large;
     padding: 10px;
     text-align: center;
   }
   
   td {
     padding: 10px;
-    text-align: center;
+    text-align: left;
   }
   
   tfoot td {
     font-weight: bold;
+    text-align: left;
+    padding-top: 5%;
+    font-size: larger;
+    font-weight: 700;
+    color: #fefddf;
   }
   
   button#add-item {
@@ -68,6 +74,7 @@ body {
     text-shadow: 0 3px 6px;
     font-size: 300%;
     color: #ffffe6;
+    font-weight: 700;
   }
   
   .cart-container button#add-item {
@@ -82,3 +89,4 @@ body {
   .cart-container button#add-item:hover {
     background-color: #f9f8d9;
   }
+  
