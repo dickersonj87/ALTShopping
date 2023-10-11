@@ -12,10 +12,10 @@ $(document).ready(function() {
       updateSubtotalAndTotal($(this).closest('tr'));
     });
   
-    $('.delete').on('click', function() {
+    $('#cart').on('click', '.delete', function() {
       $(this).closest('tr').remove();
       updateTotal();
-    });
+  });
   
     $('#add-item').on('click', function() {
       var newRow = '<tr>' +
